@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "257104872603",
+    "project_id": "books-app-fecf2",
+    "storage_bucket": "books-app-fecf2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257104872603:android:20b24c39721ba2893ff23e",
+        "android_client_info": {
+          "package_name": "com.waseem.islamicapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "257104872603-t898ire2guut5s36cd8o7dgracip4bn3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArkcVahaEFsKqsvg2tg6WxYycHO1Jglmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "257104872603-t898ire2guut5s36cd8o7dgracip4bn3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
