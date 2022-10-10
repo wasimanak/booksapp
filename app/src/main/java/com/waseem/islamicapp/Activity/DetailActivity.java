@@ -28,8 +28,6 @@ public class DetailActivity extends AppCompatActivity {
     ProgressBar loader;
 
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

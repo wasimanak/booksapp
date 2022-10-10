@@ -14,9 +14,8 @@
         android:theme="@style/Theme.Islamic"
         tools:targetApi="31" >
         <activity
-            android:name=".DetailActivity"
-            android:exported="false"
-            tools:ignore="MissingClass">
+            android:name=".Activity.DetailActivity"
+            android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

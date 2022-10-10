@@ -1,6 +1,7 @@
 package com.waseem.islamicapp.Adapter;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -23,9 +24,9 @@ public class BookAdapter extends RecyclerView.Adapter<BookAdapter.BooksHolder> {
 
 
     List<Book> list;
-    Activity activity;
+    Context activity;
 
-    public BookAdapter(List<Book> list, Activity activity) {
+    public BookAdapter(List<Book> list, Context activity) {
         this.list = list;
         this.activity = activity;
     }
@@ -57,7 +58,7 @@ public class BookAdapter extends RecyclerView.Adapter<BookAdapter.BooksHolder> {
             intent.putExtra("content",book.getContent());
             intent.putExtra("type",book.getType());
 
-//            activity.startActivity(intent);
+            activity.startActivity(intent);
         });
 
     }

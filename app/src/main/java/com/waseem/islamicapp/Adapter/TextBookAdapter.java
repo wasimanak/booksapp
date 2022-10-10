@@ -28,7 +28,7 @@ public class TextBookAdapter extends RecyclerView.Adapter<TextBookAdapter.TextBo
     @NonNull
     @Override
     public TextBookHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        return new TextBookHolder(LayoutInflater.from(parent.getContext()).inflate(R.layout.item_books,parent,false));
+        return new TextBookHolder(LayoutInflater.from(parent.getContext()).inflate(R.layout.item_textbooks,parent,false));
     }
 
     @Override
@@ -36,7 +36,6 @@ public class TextBookAdapter extends RecyclerView.Adapter<TextBookAdapter.TextBo
 
         TextBook textBook = list .get(position);
 
-        holder.chaptername.setText(textBook.getChaptername());
         holder.chapter.setText(textBook.getChapter());
 
 
@@ -55,8 +54,8 @@ public class TextBookAdapter extends RecyclerView.Adapter<TextBookAdapter.TextBo
         public TextBookHolder(@NonNull View itemView) {
             super(itemView);
 
-            chaptername = itemView.findViewById(R.id.textbook_chaptername);
-            chapter = itemView.findViewById(R.id.textbook_content);
+
+            chapter = itemView.findViewById(R.id.book_title);
         }
     }
 
